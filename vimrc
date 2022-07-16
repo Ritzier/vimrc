@@ -110,6 +110,9 @@ nnoremap [b :bnext<CR>
 nnoremap ]b :bprevious<CR>
 nnoremap <C-x> :bd<CR>
 
+vnoremap <c-d> :m '>+1<CR>gv=gv
+vnoremap <c-u> :m '<-2<CR>gv=gv
+
 nnoremap <C-w> :call ChangeColour()<CR>
 
 " Autocmd
