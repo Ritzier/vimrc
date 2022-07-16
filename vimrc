@@ -108,6 +108,9 @@ nnoremap <C-n> :NERDTreeToggle<cr>
 
 nnoremap [b :bnext<CR>
 nnoremap ]b :bprevious<CR>
+nnoremap <C-x> :bd<CR>
+
+nnoremap <C-w> :call ChangeColour()<CR>
 
 " Autocmd
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
