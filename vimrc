@@ -33,6 +33,9 @@ Plug 'https://github.com/dense-analysis/ale'
 " Random colorscheme
 Plug 'Sammyalhashe/random_colorscheme.vim'
 
+" For Python
+Plug 'Vimjas/vim-python-pep8-indent'
+
 call plug#end()
 
 filetype plugin indent on
@@ -78,7 +81,7 @@ set sidescrolloff=8
 set laststatus=2
 
 set background=dark
-"colorscheme rigel
+colorscheme rigel
 syntax on
 
 " Plugins
